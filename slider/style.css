@@ -81,3 +81,46 @@ button:focus{
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
 }
+
+@media screen and (max-width:1024px) {
+    .right-slider{
+        left: 35%;
+        width: 90%;
+   }
+}
+@media screen and (max-width:950px) {
+    .right-slider{
+        left: 35%;
+        width: 120%;
+   }
+}
+@media screen and (max-width:750px) {
+    .right-slider{
+        left: 35%;
+        width: 130%;
+   }
+   button{
+    padding: 10px;
+   }
+}
+@media screen and (max-width:650px) {
+    .right-slider{
+        left: 35%;
+        width: 140%;
+   }
+   button{
+    padding: 5px;
+   }
+}
+@media screen and (max-width:600px) {
+    .right-slider{
+        left: 35%;
+        width: 150%;
+   }
+}
+@media screen and (max-width:560px) {
+    .right-slider{
+        left: 35%;
+        width: 160%;
+   }
+}
