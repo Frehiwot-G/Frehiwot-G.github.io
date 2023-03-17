@@ -59,4 +59,37 @@ table tr td:last-child{
     font-size: 2em;
 }
 
+@media screen and (max-width:1024px) {
+    .btn-dark{
+        margin-top: 55%;
+    }
+    table{
+        left: 30%;
+    }
+}
+@media screen and (max-width:766px) {
+    .btn-dark{
+        margin-top: 75%;
+    }  
+}
+
+@media screen and (max-width:480px) {
+    .btn-dark{
+        margin-top: 95%;
+    }  
+    table{
+        left:15%;
+    }
+}
+@media screen and (max-width:375px) { 
+    table{
+        top: 155px;
+        left:10%;
+    }
+    .btn-dark{
+        margin-top: 115%;
+    }
+}
+
+
 
