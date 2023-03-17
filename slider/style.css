@@ -35,6 +35,7 @@ body{
 .left-slider > h1{
     font-size: 40px;
 }
+
 .right-slider{
     height: 100%;
     position: absolute;
@@ -50,6 +51,7 @@ body{
     height: 100%;
     width: 100%;
 }
+
 .slider-container .action-buttons  button{
     position: absolute;
     left: 35%;
@@ -63,7 +65,6 @@ button{
     cursor: pointer;
     font-size: 16px;
     padding: 15px;
-
 }
 button:hover{
     color: #222;
@@ -96,31 +97,78 @@ button:focus{
 }
 @media screen and (max-width:750px) {
     .right-slider{
-        left: 35%;
         width: 130%;
    }
+   .right-slider .self{
+        width: 60%;
+   }
+   .right-slider .natural{
+        width: 80%;
+   }
+   
+   h1, p{
+        margin-top: 50px;
+    }
    button{
-    padding: 10px;
+        padding: 10px;
    }
 }
 @media screen and (max-width:650px) {
     .right-slider{
         left: 35%;
         width: 140%;
-   }
+   } 
+   .right-slider .smile{
+        width: 80%;
+    }
    button{
     padding: 5px;
    }
 }
 @media screen and (max-width:600px) {
     .right-slider{
-        left: 35%;
         width: 150%;
    }
 }
 @media screen and (max-width:560px) {
     .right-slider{
-        left: 35%;
         width: 160%;
    }
+}
+@media screen and (max-width:500px) {
+    .right-slider .lion{
+        width: 130%;
+   }
+   .left-slider p{
+    padding: 0px 10px 0px 10px;
+   }
+   .left-slider h1{
+    padding: 0px 10px 0px 10px;
+   }
+   .right-slider .team{
+        width: 60%;
+   }
+   .right-slider .path{
+        width: 60%;
+    }
+    .right-slider .self{
+        width: 55%;
+   }
+}
+@media screen and (max-width:400px) {
+    .right-slider .lion{
+        width: 150%;
+   }
+   .right-slider .team{
+        width: 50%;
+   }
+   .right-slider .path{
+        width: 50%;
+    }
+    .right-slider .self{
+        width: 50%;
+   }
+   .right-slider .natural{
+    width: 50%;
+}
 }
